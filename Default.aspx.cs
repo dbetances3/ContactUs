@@ -28,6 +28,6 @@ public partial class _Default : System.Web.UI.Page
 
     private static void NewMethod(SmtpClient smtp)
     {
-        smtp.Credentials = new System.Net.NetworkCredential("dbetances2@gmail.com", "Dianita8!");
+        smtp.Credentials = new System.Net.NetworkCredential("dbetances2@gmail.com", "password");
     }
 }

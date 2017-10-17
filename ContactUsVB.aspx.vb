@@ -16,7 +16,7 @@ Partial Class ContactUsVB
         'Or Your SMTP Server Address
         smtp.Port = 587
         smtp.EnableSsl = True
-        smtp.Credentials = New System.Net.NetworkCredential("dbetances2@gmail.com", "Dianita8!")
+        smtp.Credentials = New System.Net.NetworkCredential("dbetances2@gmail.com", "password")
         'Or your Smtp Email ID and Password
         smtp.Send(feedBack)
         Label1.Text = "Thanks for contacting us"
